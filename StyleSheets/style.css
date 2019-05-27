@@ -10,7 +10,7 @@ html, body {
 }
 
 .wrapper {
-    background-color: #e8e6e3;
+    /*background-color: #e8e6e3;*/
     max-width: 1000px;
     display: flex;
     flex-direction: column;

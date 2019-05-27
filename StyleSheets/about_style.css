@@ -1,5 +1,4 @@
 html, body {
-    display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
@@ -10,17 +9,52 @@ html, body {
     color: #46494C;
 }
 
-.wrapper {
+.header {
+    overflow: hidden;
     background-color: #e8e6e3;
+    padding: 20px 10px;
+    display: flex;
+}
+
+.name {
+
+}
+
+.icons li {
+    display: inline;
+    margin: 5px;
+}
+
+.icons li a {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+}
+
+.pages li{
+    display: inline;
+    margin: 10px;
+}
+
+.wrapper {
+    /*background-color: #e8e6e3;*/
     max-width: 1000px;
     display: flex;
     flex-direction: row;
     height: 480px;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
 }
 
 
 .left, .right {
-    background-color: #e8e6e3;
+    /*background-color: #e8e6e3;*/
     margin: 5px;
     max-width: 500px;
     flex: 1;
