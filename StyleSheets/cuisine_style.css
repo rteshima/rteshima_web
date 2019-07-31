@@ -4,7 +4,6 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    background-color: white;
 
     font-family: 'Raleway', sans-serif;
     color: #46494C;
@@ -118,81 +117,102 @@ html, body {
     margin: 10px;
 }
 
-.wrapper {
-    /*background-color: #e8e6e3;*/
-    background-color: white;
+.food1 {
     max-width: 1000px;
+    flex: 1;
     display: flex;
     flex-direction: row;
-    height: 480px;
 
-    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-
-    margin: auto;
+    margin: 50px auto;
 }
 
-
-.left, .right {
-    /*background-color: #e8e6e3;*/
+.food1_pic, .food1_caption {
     margin: 5px;
     max-width: 500px;
     flex: 1;
+    top: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
-.left {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+/*.food1_caption {*/
+/*    margin-top: -20px;*/
+/*    flex: 1;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+.milk_chick {
+    height: 500px;
+    width: 400px;
 }
 
-.left h4 {
-    margin: 0px;
+.food2 {
+    max-width: 1000px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 50px auto;
 }
 
-.left h5 {
-    margin: 0px;
+.food2_caption {
+    margin: 5px 5px 5px 5px;
+    max-width: 500px;
+    flex: 1;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
-
-.links {
-    list-style: none;
-    padding-left: 0px;
-    font-size: 18px;
+.food2_pic {
+    margin: 5px;
+    max-width: 500px;
+    flex: 1;
+    text-align: right;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
-.links a {
-    color: #344055;
+.tofu_stew {
+    height: 500px;
+    top: 50%;
+    width: 500px;
+    vertical-align: middle;
 }
 
-a:hover {
-    color: #84b3ff;
+.food3 {
+    max-width: 1000px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 50px auto;
 }
 
-.social-links li {
-    display: inline-block;
-    margin-right: 8px;
-    color: #344055;
-
+.food3_pic, .food3_caption {
+    margin: 5px;
+    max-width: 500px;
+    flex: 1;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
-.social-links a {
-    text-decoration: none;
-    padding: 4px;
-    color: #344055;
+.plentea {
+    height: 500px;
+    width: 400px;
 }
-
-.social-links a:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-.pic {
-    border-radius: 50%;
-}
-
