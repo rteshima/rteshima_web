@@ -1,0 +1,231 @@
+html, body {
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Raleway', sans-serif;
+    color: #46494C;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #E8EBED;
+    padding: 20px 10px;
+    display: flex;
+    margin: 0px auto;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.name {
+    /*color: #46494C;*/
+    text-align: center;
+    width: 20%;
+}
+
+.name a {
+    color: #46494C;
+}
+
+.name h2 {
+    font-weight: bold;
+}
+
+.name:hover a {
+    color: #84b3ff;
+    text-decoration: underline;
+    text-decoration-color: #84b3ff;
+}
+
+/*.mid {*/
+/*    width: 20%;*/
+/*    text-align: center;*/
+/*    margin: 0 auto;*/
+/*    color: #46494C;*/
+/*}*/
+
+.socials {
+    width: 40%;
+    text-align: right;
+    float: right;
+}
+
+.socials ul li {
+    margin: 0px 15px;
+}
+
+.categories {
+    width: 40%;
+    display: inline-block;
+    float: left;
+    /*vertical-align: middle;*/
+}
+
+.categories a {
+    line-height: 35px;
+    color: #46494C
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 17px;
+    /*height: 30px;*/
+    /*line-height: 30px;*/
+    text-align: center;
+    /*vertical-align: middle;*/
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-github {
+    background: #46494C;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-file-text-o {
+    background: white;
+    color: black;
+}
+
+.icons li {
+    display: inline;
+    margin: 5px;
+}
+
+/*.icons li a {*/
+/*    -webkit-appearance: button;*/
+/*    -moz-appearance: button;*/
+/*    appearance: button;*/
+/*}*/
+
+.pages li {
+    display: inline;
+    margin: 10px;
+}
+
+a:hover {
+    color: #84b3ff;
+    text-decoration: #84b3ff;
+}
+
+a {
+    text-decoration: none;
+    color: #344055;
+}
+
+.wrapper {
+    max-width: 1000px;
+
+    position: absolute;
+    top: 109px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;}
+
+.line1 {
+    display: flex;
+}
+
+.opera {
+    width: 500px;
+}
+
+.alamo {
+    width: 500px;
+}
+
+.line2 {
+    display: flex;
+}
+
+.iamsterdam {
+    width: 300px;
+}
+
+.line2right {
+    width: 800px;
+}
+.line2upper{
+    display: flex;
+}
+.bird {
+    width: 350px;
+}
+
+.griffith {
+    width: 350px;
+}
+
+.line2lower {
+    display: flex;
+}
+
+.dcsunset {
+    width: 350px;
+}
+
+.bus {
+    width: 350px;
+}
+
+.line3 {
+    display: flex;
+}
+
+.airport {
+    width: 500px;
+}
+
+.canal {
+    width: 500px;
+}
+
+.line4 {
+    display: flex;
+}
+
+.line4left {
+    width: 800px;
+}
+.line4upper{
+    display: flex;
+}
+.cruise {
+    width: 350px;
+}
+
+.blossoms {
+    width: 350px;
+}
+
+.line4lower {
+    display: flex;
+}
+
+.baltisnow {
+    width: 350px;
+}
+
+.monastery {
+    width: 350px;
+}
+
+.ski {
+    width: 300px;
+}

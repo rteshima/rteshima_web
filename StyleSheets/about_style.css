@@ -160,17 +160,6 @@ html, body {
     margin: 0px;
 }
 
-
-.links {
-    list-style: none;
-    padding-left: 0px;
-    font-size: 18px;
-}
-
-.links a {
-    color: #344055;
-}
-
 a:hover {
     color: #84b3ff;
 }

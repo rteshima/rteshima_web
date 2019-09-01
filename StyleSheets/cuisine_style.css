@@ -216,3 +216,13 @@ html, body {
     height: 500px;
     width: 400px;
 }
+
+a:hover {
+    color: #84b3ff;
+    text-decoration: #84b3ff;
+}
+
+a {
+    text-decoration: none;
+    color: #344055;
+}

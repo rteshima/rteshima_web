@@ -117,11 +117,10 @@ html, body {
     margin: 10px;
 }
 
-
 .aquatics {
-    max-width: 100%;
+    max-width: 1000px;
     flex: 1;
-    display:flex;
+    display: flex;
     flex-direction: row;
 
     top: 0;
@@ -131,7 +130,86 @@ html, body {
     margin: 50px auto;
 }
 
+.aq_im, .aq_title {
+    margin: 5px;
+    max-width: 500px;
+    flex: 1;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.weights {
+    max-width: 1000px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 50px auto;
+}
+
+.w_title {
+    margin: 5px;
+    max-width: 500px;
+    flex: 1;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.w_im {
+    margin: 0px 50px 0px 0px;
+    max-width: 500px;
+    flex: 1;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hiit {
+    max-width: 1000px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 50px auto;
+}
+
+.hiit_title, .hiit_im {
+    margin: 5px;
+    max-width: 500px;
+    flex: 1;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
 .swim_cover {
     width: 400px;
-    height: 300px;
+}
+
+.weights_cover {
+    width: 400px;
+}
+
+.hiit_cover{
+    width: 400px;
+}
+
+a:hover {
+    color: #84b3ff;
+    text-decoration: #84b3ff;
+}
+
+a {
+    text-decoration: none;
+    color: #344055;
 }
