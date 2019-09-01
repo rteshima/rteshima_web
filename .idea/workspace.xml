@@ -2,22 +2,115 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="145d133a-1da3-46de-af2a-ba07426e3774" name="Default Changelist" comment="Touched up header on About page and Implemented static frontend for Cuisine">
-      <change afterPath="$PROJECT_DIR$/HTMLFiles/aquatics.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTMLFiles/hiit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTMLFiles/weights.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StyleSheets/comp_sci_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StyleSheets/photo_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLFiles/about_me.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLFiles/about_me.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLFiles/comp_sci.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLFiles/comp_sci.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLFiles/cuisine.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLFiles/cuisine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLFiles/fitness.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLFiles/fitness.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLFiles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLFiles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLFiles/photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLFiles/photo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StyleSheets/about_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/StyleSheets/about_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StyleSheets/cuisine_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/StyleSheets/cuisine_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StyleSheets/fitness_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/StyleSheets/fitness_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLFiles/about_me.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/HTMLFiles/about_me.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLFiles/aquatics.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/HTMLFiles/aquatics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLFiles/comp_sci.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/HTMLFiles/comp_sci.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLFiles/cuisine.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/HTMLFiles/cuisine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLFiles/fitness.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/HTMLFiles/fitness.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLFiles/hiit.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/HTMLFiles/hiit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLFiles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLFiles/photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/HTMLFiles/photo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLFiles/weights.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/HTMLFiles/weights.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Scripts/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_0327.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_0327.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_0330.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_0330.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_0412.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_0412.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_0418.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_0418.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_0419.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_0419.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_0420.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_0420.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_0424.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_0424.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_0425.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_0425.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_0427.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_0427.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_0428.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_0428.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_0432.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_0432.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_0450.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_0450.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_0533.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_0533.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_0630.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_0630.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_0826.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_0826.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_0827.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_0827.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_0954.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_0954.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_0995.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_0995.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_0998.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_0998.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_1282.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_1282.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_1296.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_1296.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_1309.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_1309.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_1321.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_1321.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_1449.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_1449.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_1541.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_1541.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_1556.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_1556.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_1557.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_1557.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_1589.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_1589.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_1598.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_1598.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_1600.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_1600.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_1602.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_1602.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_1639.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_1639.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_1857.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_1857.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_2127.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_2127.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_2181.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_2181.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_2659.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_2659.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_3438.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_3438.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_3701.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_3701.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_4073.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_4073.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_4333.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_4333.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_4527.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_4527.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_6885.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_6885.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_7394.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_7394.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_7586.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_7586.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_7913.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_7913.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_7937.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_7937.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_7944.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_7944.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_8371.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_8371.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_8790.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_8790.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_9133.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_9133.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_9138.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_9138.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_9175.heic" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_9175.heic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/IMG_9303.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/IMG_9303.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/MilkChicken1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/MilkChicken1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/TofuStew.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/TofuStew.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Food/plentea.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Food/plentea.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Just In Case/Linkedin.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Just In Case/Linkedin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Just In Case/github.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Just In Case/github.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Just In Case/resume.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Just In Case/resume.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Linkedin.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Linkedin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Photography/airport.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Photography/airport.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Photography/alamo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Photography/alamo.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Photography/baltisnow.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Photography/baltisnow.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Photography/bird.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Photography/bird.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Photography/blossoms.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Photography/blossoms.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Photography/bus.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Photography/bus.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Photography/canal.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Photography/canal.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Photography/castle.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Photography/castle.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Photography/cruise.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Photography/cruise.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Photography/dcsunset.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Photography/dcsunset.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Photography/griffith.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Photography/griffith.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Photography/iamsterdam.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Photography/iamsterdam.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Photography/la.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Photography/la.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Photography/monastery.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Photography/monastery.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Photography/opera.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Photography/opera.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Photography/ski.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Photography/ski.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Ryan.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Ryan.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Swim/bk_mason.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Swim/bk_mason.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Swim/breaststroke.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Swim/breaststroke.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Swim/clovis_cheer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Swim/clovis_cheer.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Swim/clovis_dive.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Swim/clovis_dive.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Swim/pointer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Swim/pointer.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/Swim/rmst_swim.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/Swim/rmst_swim.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/apl.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/apl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/github.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/github.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/hiit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/hiit.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/resume.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/resume.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/website.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/website.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/Images/weights.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/Images/weights.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/about_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/about_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/comp_sci_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/comp_sci_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/cuisine_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/cuisine_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/fitness_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/fitness_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/photo_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/photo_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/StyleSheets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.rules.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase-debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +125,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+                  <folding>
+                    <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/HTMLFiles/cuisine.html">
+            <entry file="file://$PROJECT_DIR$/public/HTMLFiles/cuisine.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="465">
                   <caret line="31" column="6" selection-start-line="12" selection-end-line="31" selection-end-column="6" />
@@ -46,7 +151,7 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/StyleSheets/fitness_style.css">
+            <entry file="file://$PROJECT_DIR$/public/StyleSheets/fitness_style.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1363">
                   <caret line="205" selection-start-line="205" selection-end-line="205" />
@@ -55,7 +160,7 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/StyleSheets/about_style.css">
+            <entry file="file://$PROJECT_DIR$/public/StyleSheets/about_style.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="127">
                   <caret line="129" selection-start-line="129" selection-end-line="134" selection-end-column="17" />
@@ -67,7 +172,7 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/StyleSheets/cuisine_style.css">
+            <entry file="file://$PROJECT_DIR$/public/StyleSheets/cuisine_style.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="198">
                   <caret line="125" column="11" selection-start-line="125" selection-start-column="11" selection-end-line="125" selection-end-column="11" />
@@ -76,7 +181,7 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/HTMLFiles/comp_sci.html">
+            <entry file="file://$PROJECT_DIR$/public/HTMLFiles/comp_sci.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="465">
                   <caret line="31" column="6" selection-start-line="12" selection-end-line="31" selection-end-column="6" />
@@ -88,11 +193,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/HTMLFiles/photo.html">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/HTMLFiles/photo.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="206">
-                  <caret line="66" column="14" lean-forward="true" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+                  <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
                   <folding>
                     <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -101,12 +206,19 @@
               </provider>
             </entry>
           </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/googlesindex.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-212" />
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/StyleSheets/comp_sci_style.css">
+            <entry file="file://$PROJECT_DIR$/public/StyleSheets/comp_sci_style.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="326">
                   <caret line="130" selection-start-line="130" selection-end-line="138" selection-end-column="17" />
@@ -115,7 +227,7 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/StyleSheets/photo_style.css">
+            <entry file="file://$PROJECT_DIR$/public/StyleSheets/photo_style.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="416">
                   <caret line="228" column="4" selection-start-line="228" selection-start-column="4" selection-end-line="228" selection-end-column="4" />
@@ -203,12 +315,13 @@
             <path>
               <item name="PersonalWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="PersonalWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="HTMLFiles" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PersonalWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="PersonalWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="StyleSheets" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="HTMLFiles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -233,6 +346,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/StyleSheets" />
       <recent name="$PROJECT_DIR$/Images" />
       <recent name="$PROJECT_DIR$" />
@@ -275,7 +389,7 @@
       <workItem from="1564248366588" duration="11941000" />
       <workItem from="1565059595702" duration="1400000" />
       <workItem from="1565144039564" duration="496000" />
-      <workItem from="1567194691377" duration="14477000" />
+      <workItem from="1567194691377" duration="15453000" />
     </task>
     <task id="LOCAL-00001" summary="Touched up header on About page and Implemented static frontend for Cuisine">
       <created>1564535502479</created>
@@ -288,11 +402,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55696000" />
+    <option name="totallyTimeSpent" value="56672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="962" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14948764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -306,8 +419,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.13793103" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32988507" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.32988507" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4996986" visible="true" weight="0.32988507" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50030136" side_tool="true" weight="0.32988507" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -340,10 +453,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Touched up header on About page and Implemented static frontend for Cuisine" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/StyleSheets/Images/resume.png">
+    <entry file="file://$PROJECT_DIR$/public/StyleSheets/Images/resume.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/StyleSheets/Images/github.png">
+    <entry file="file://$PROJECT_DIR$/public/StyleSheets/Images/github.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
@@ -353,31 +466,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLFiles/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/main.js">
+    <entry file="file://$PROJECT_DIR$/public/Scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StyleSheets/style.css">
+    <entry file="file://$PROJECT_DIR$/public/StyleSheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLFiles/fitness.html">
+    <entry file="file://$PROJECT_DIR$/public/HTMLFiles/fitness.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="103" selection-start-line="37" selection-start-column="103" selection-end-line="37" selection-end-column="103" />
@@ -388,28 +491,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLFiles/aquatics.html">
+    <entry file="file://$PROJECT_DIR$/public/HTMLFiles/aquatics.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLFiles/weights.html">
+    <entry file="file://$PROJECT_DIR$/public/HTMLFiles/weights.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLFiles/hiit.html">
+    <entry file="file://$PROJECT_DIR$/public/HTMLFiles/hiit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLFiles/about_me.html">
+    <entry file="file://$PROJECT_DIR$/public/HTMLFiles/about_me.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="54" column="32" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="32" />
@@ -419,7 +522,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLFiles/cuisine.html">
+    <entry file="file://$PROJECT_DIR$/public/HTMLFiles/cuisine.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="6" selection-start-line="12" selection-end-line="31" selection-end-column="6" />
@@ -430,21 +533,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StyleSheets/fitness_style.css">
+    <entry file="file://$PROJECT_DIR$/public/StyleSheets/fitness_style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1363">
           <caret line="205" selection-start-line="205" selection-end-line="205" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StyleSheets/cuisine_style.css">
+    <entry file="file://$PROJECT_DIR$/public/StyleSheets/cuisine_style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="125" column="11" selection-start-line="125" selection-start-column="11" selection-end-line="125" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StyleSheets/about_style.css">
+    <entry file="file://$PROJECT_DIR$/public/StyleSheets/about_style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="129" selection-start-line="129" selection-end-line="134" selection-end-column="17" />
@@ -454,7 +557,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLFiles/comp_sci.html">
+    <entry file="file://$PROJECT_DIR$/public/HTMLFiles/comp_sci.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="6" selection-start-line="12" selection-end-line="31" selection-end-column="6" />
@@ -465,26 +568,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StyleSheets/comp_sci_style.css">
+    <entry file="file://$PROJECT_DIR$/public/StyleSheets/comp_sci_style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="130" selection-start-line="130" selection-end-line="138" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StyleSheets/photo_style.css">
+    <entry file="file://$PROJECT_DIR$/public/StyleSheets/photo_style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="228" column="4" selection-start-line="228" selection-start-column="4" selection-end-line="228" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLFiles/photo.html">
+    <entry file="file://$PROJECT_DIR$/public/HTMLFiles/photo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
-          <caret line="66" column="14" lean-forward="true" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/googlesindex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-212" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
             <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
