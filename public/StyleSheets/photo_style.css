@@ -144,10 +144,12 @@ a {
 
 .opera {
     width: 500px;
+    height: 375px;
 }
 
 .alamo {
     width: 500px;
+    height: 375px;
 }
 
 .line2 {
@@ -156,20 +158,24 @@ a {
 
 .iamsterdam {
     width: 300px;
+    height: 525px;
 }
 
 .line2right {
     width: 800px;
+    height: 525px;
 }
 .line2upper{
     display: flex;
 }
 .bird {
     width: 350px;
+    height: 262px;
 }
 
 .griffith {
     width: 350px;
+    height: 262px
 }
 
 .line2lower {
@@ -178,10 +184,12 @@ a {
 
 .dcsunset {
     width: 350px;
+    height: 263px;
 }
 
 .bus {
     width: 350px;
+    height: 263px;
 }
 
 .line3 {
@@ -190,10 +198,12 @@ a {
 
 .airport {
     width: 500px;
+    height: 375px;
 }
 
 .canal {
     width: 500px;
+    height: 375px;
 }
 
 .line4 {
@@ -208,24 +218,30 @@ a {
 }
 .cruise {
     width: 350px;
+    height: 262px;
 }
 
 .blossoms {
     width: 350px;
+    height: 262px;
 }
 
 .line4lower {
     display: flex;
+
 }
 
 .baltisnow {
     width: 350px;
+    height: 263px;
 }
 
 .monastery {
     width: 350px;
+    height: 263px;
 }
 
 .ski {
     width: 300px;
+    height: 525px;
 }
